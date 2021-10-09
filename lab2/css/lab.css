@@ -16,6 +16,8 @@ p {
 }
 
 #content {
+  color: pink
+  background-color: #191970;
   border-style: dotted;
   border-color: pink;
 }
