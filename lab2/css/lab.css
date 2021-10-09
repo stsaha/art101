@@ -10,6 +10,7 @@ body {
 h1 {
   background-color: orange;
   color: white;
+  font-size: 200%;
 }
 
 div {
