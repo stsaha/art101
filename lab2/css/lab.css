@@ -3,6 +3,9 @@
 <head>
 <style>
 
+body {
+  background-color: pink;
+}
 h1 {
   color: pink !important;
   text-align: center;
