@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-<style>
-body {
-  background-color: lightgrey;
-  color: blue;
-}
+  <head>
+    <style>
+    body {
+      background-color: lightgrey;
+      color: blue;
+    }
 
-h1 {
-  background-color: orange;
-  color: white;
-  font-size: 200%;
-}
+    h1 {
+      background-color: red;
+      color: white;
+      font-size: 200%;
+    }
 
-div {
-  background-color: blue;
-  color: white;
-}
-</style>
-</head>
+    div {
+      background-color: blue;
+      color: white;
+    }
+    </style>
+    </head>
 <body>
 
 <h1>This is a Heading</h1>
