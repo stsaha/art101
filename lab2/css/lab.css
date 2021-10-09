@@ -8,13 +8,13 @@ body {
 }
 
 h1 {
-  background-color: lightpink;
-  color: darkblue;
+  background-color: white;
+  color: black;
 }
 
 div {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: blue;
 }
 </style>
 </head>
