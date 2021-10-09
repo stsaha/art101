@@ -8,13 +8,14 @@ body {
 }
 
 h1 {
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
+  font size: 200%;
 }
 
 div {
-  background-color: white;
-  color: blue;
+  background-color: blue;
+  color: white;
 }
 </style>
 </head>
