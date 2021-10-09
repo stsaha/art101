@@ -1,11 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
 h1 {
   color: black;
+  text-align: center;
 }
 
 p {
   color: white;
+  text-align: center;
 }
 
 #content {
   background-color: #444444;
 }
+
+</style>
+</head>
+</html>
