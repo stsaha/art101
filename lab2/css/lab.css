@@ -1,17 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-    h1 {
-      background-color: red;
-      color: white;
-    }
+h1 {
+  color: black;
+}
 
-    div {
-      background-color: blue;
-      color: white;
-    }
-    </style>
-  </head>
-</html>
-<body>
+p {
+  color: white;
+}
+
+#content {
+  background-color: #444444;
+}
