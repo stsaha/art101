@@ -1,0 +1,17 @@
+h1   {color: darkblue;}
+h2   {
+      border-style: dotted;
+      border-color: pink;
+      width: 130px;
+      font-family: "Monaco", "Courier New", monospace;}
+
+p     {font-family: "Monaco", "Courier New", monospace; color: darkblue;}
+
+.pseudo {display: flex;}
+
+.element {padding: 0.5em;
+          background: #daa6a6;
+          flex-basis: 100px;
+          height: 500px;
+          margin: 5px;
+          }
