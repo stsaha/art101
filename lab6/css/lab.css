@@ -1,0 +1,15 @@
+h1 {text-align: center; font-family: Arial, Helvetica, sans-serif;}
+
+h2{border-style: solid;
+   border-color: lightgrey;
+   width: 150px;
+   text-align: center;
+   margin-left: -10px;
+   background-color: lightgrey;
+   color: white;}
+
+img{float: right; padding-left: 20px;}
+
+body{float: left; font-family: Arial, Helvetica, sans-serif;}
+
+p{margin-left: 0px;}
