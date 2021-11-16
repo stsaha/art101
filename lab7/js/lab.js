@@ -10,11 +10,11 @@ function sortUserName()
 {
   //take string name as user input
   var userName = window.prompt("Hello! What is your name?");
-  userName = userName.toLowerCase();
-  console.log ("userName =", userName);
+  newName = userName.toLowerCase();
+  console.log ("userName =", newName);
 
   //split string by characters and into array
-  var nameArray = userName.split('');
+  var nameArray = newName.split('');
   console.log ("name array =", nameArray);
 
   //sort characters in array in alphabetical order
