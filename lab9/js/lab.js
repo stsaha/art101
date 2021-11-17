@@ -17,3 +17,6 @@ new2El = document.createTextNode("The next lab will be Lab 10!");
 // append both elements using appendChild
 outputEl.appendChild(new1El);
 outputEl.appendChild(new2El);
+
+//var x = document.URL;
+//document.getElementById("output").innerHTML = x;
