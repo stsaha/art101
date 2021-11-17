@@ -12,7 +12,6 @@ function sortingHat(str)
     if (mod == 0)
     {
       return "Gryffindor!"
-      return "hi"
     }
     if (mod == 1)
     {

@@ -5,10 +5,11 @@ h1 {color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 350px;
+    margin-right: 100px;
     border-style: solid;
     border-width: thick;
-    margin-left: 400px;
-    margin-right: 400px;}
+  }
 
 h2{border-style: solid;
    border-color: lightgrey;
