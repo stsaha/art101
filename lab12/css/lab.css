@@ -1,0 +1,24 @@
+h1 {color: grey;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: thick;
+    margin-left: 400px;
+    margin-right: 400px;}
+
+h2{border-style: solid;
+   border-color: lightgrey;
+   width: 150px;
+   text-align: center;
+   background-color: lightgrey;
+   color: white;}
+
+img{float: right; padding-left: 20px;}
+
+body{float: left; font-family: Arial, Helvetica, sans-serif;}
+
+p{margin-left: 0px;}

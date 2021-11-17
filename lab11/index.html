@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Lab 11 - Libraries and jQuery</title>
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<script type="text/javascript" src="js/lab.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+
+<body>
+	<main>
+		<div>
+
+			<h1>Lab 11 - Libraries and jQuery </h1>
+
+			<h2>Challenge</h2>
+    	<input type='button' id='challenge' value='Click to See Challenge'>
+			<script>
+    		$('#challenge').on('click', function ()
+    		{
+					document.writeln("The purpose of this lab is to experiment with the jQuery API.");
+    		})
+			</script>
+
+			<h2>Problems</h2>
+			<input type='button' id='problems' value='Click to See Problems'>
+			<script>
+    	$('#problems').on('click', function ()
+    	{
+				document.writeln("This lab took me a little more time than others because I wanted to figure out how to print the text directly below a button after it is clicked without it having to be printed elsewhere. Instead, I opted for using document.writeln() which prints the text on a directed page instead of the same page.");
+    	})
+			</script>
+
+			<h2>Results</h2>
+			<input type='button' id='results' value='Click to See Results'>
+			<script>
+    	$('#results').on('click', function ()
+    	{
+				document.writeln("The results of this lab can be seen by clicking the buttons, each of which will lead to a different page with the corresponding text.");
+    	})
+			</script>
+			<br>
+			<input type='button' id='change' value='Click to Change All Button Colors'>
+			<script>
+				document.getElementById('change').onclick = changeColor;
+				function changeColor()
+				{
+					document.getElementById("challenge").style.background = 'lightgreen';
+					document.getElementById("problems").style.background = 'lightblue';
+					document.getElementById("results").style.background = 'lavender';
+					return false;
+				}
+			</script>
+
+		</div>
+	</main>
+</body>
+
+</html>
