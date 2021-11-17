@@ -11,19 +11,19 @@ function sortingHat(str)
     mod = len % 4;
     if (mod == 0)
     {
-      return "Gryffindor!"
+      return "Gryffindor! Your house was found by Godric Gryffindor! Your house crest is a lion and wears the colors of red and gold! Though you may often act imupsively, you are courageous, chivalrous, and an adamant fighter for the good against the evil!"
     }
     if (mod == 1)
     {
-      return "Ravenclaw!"
+      return "Ravenclaw! Your house was found by Rowena Ravenclaw! Your house crest is an eagle and wears the colors of blue and bronze! Though you may often isolate yourself, your unwavering curiousity and ability to hold your ground speak to your strong, confidant personality!"
     }
     if (mod == 2)
     {
-      return "Slytherin!"
+      return "Slytherin! Your house was founded by Salazar Slytherin! Your house crest is a snake and wears the colors of green and silver! Though your desire for power and authority may often blind you, your steadfast ambition and resourcefulness make you one who can reach beyond the realm of possibilities!"
     }
     if (mod == 3)
     {
-      return "Hufflepuff!"
+      return "Hufflepuff! Your house was found by Helga Hufflepuff! Your house crest is a badger and wears the colors of black and yellow! Though your naivety may often be a source of prey, your loyalty, dedication, and willingness to only see the good is undeniable!"
     }
 }
 
